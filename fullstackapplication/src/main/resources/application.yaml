@@ -1,0 +1,16 @@
+
+server:
+  port: 9001
+
+
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost:3306/gaurav
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver 
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show_sql: true
+    hibernate:
+      ddl-auto: create
